@@ -20,8 +20,8 @@ public class TencentCloudAPIInitUtil {
     private static final char[] encodeMap = initEncodeMap();
 
     // 请替换自己的腾讯云
-    private static String SecretKey = "mIXEfKjz0sVstdQ2VjhPqAMSIwgCTSAc";
-    private static String SecretId = "AKIDYqrzrcNJHyjEagH3M4WbRWLsCJNBB3D8";
+    private static String SecretKey = "";
+    private static String SecretId = "";
 
     public static TreeMap<String, Object> init(Bitmap bitmap) throws Exception {
         // TreeMap可以自动排序
