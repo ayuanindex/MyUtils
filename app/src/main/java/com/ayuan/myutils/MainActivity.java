@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Text2Voice text2Voice = new Text2Voice();
         longTextTtsController = text2Voice.initLongTextTtsController(1301676932L
-                , "AKIDYqrzrcNJHyjEagH3M4WbRWLsCJNBB3D8"
-                , "mIXEfKjz0sVstdQ2VjhPqAMSIwgCTSAc");
+                , "替换成自己的id"
+                , "替换自己的key");
         text2Voice.start(
                 str
                 , new Text2Voice.ResultData() {
